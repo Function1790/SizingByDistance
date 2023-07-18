@@ -1,8 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbit', sans-serif;
+}
+
 body {
-    background-color: #e2e2e2;
+    background-color: white;
 }
 
 canvas {
-    background-color: white;
-    border: 3px solid #464646;
+    background-color: rgb(0, 0, 0);
+    background: url('https://th.bing.com/th/id/OIP.dwGo6wlxptbQ3tz1gBoJ-wHaEK?pid=ImgDet&rs=1');
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.wrapCanvas{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapStatusViewer{
+    padding-top: 30px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.statusViewer {
+    font-size: 20px;
+    margin: 5px;
+    padding-left: 0px;
+}
+
+.wrapViewer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }

@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
-    </head>
-    <body>
-        <canvas id="canvas" width="800" height="800"></canvas>
-        <script src="script.js"></script>
-    </body>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>원근법</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapCanvas">
+            <canvas id="canvas1" width="400" height="400"></canvas>
+            <canvas id="canvas2" width="400" height="400"></canvas>
+            <script src="script.js"></script>
+        </div>
+        <div class="wrapViewer">
+            <div class="wrapStatusViewer">
+                <h1>Earth</h1>
+                <div class="statusViewer" id="stv1">거리 : </div>
+                <div class="statusViewer" id="stv2">시야각 : </div>
+                <div class="statusViewer" id="stv3">반지름 : </div>
+            </div>
+            <div class="wrapStatusViewer">
+                <h1>Sun</h1>
+                <div class="statusViewer" id="stv4">거리 : </div>
+                <div class="statusViewer" id="stv5">시야각 : </div>
+                <div class="statusViewer" id="stv6">반지름 : </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
