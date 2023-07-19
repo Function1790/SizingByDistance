@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Orbit', sans-serif;
+    user-select: none;
 }
 
 body {
@@ -42,4 +43,10 @@ canvas {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
